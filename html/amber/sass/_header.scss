@@ -1,7 +1,7 @@
 header{
 	background-image: url("../images/header-bg.jpg");
 	background-size: cover;
-	.navbar{ margin-bottom: 0; border-radius: 0; border: 0;}
+	.navbar{ margin-bottom: 0; @include border-radius(0); border: 0;}
 	.top-navbar{
 		color: $header-txt-color;
 		height: 50px;
@@ -17,7 +17,7 @@ header{
 				width: 210px;
 				background: none;
 				border: 1px solid $header-txt-color; 
-				border-radius: 0;
+				@include border-radius(0);
 			}
 		}
 	}

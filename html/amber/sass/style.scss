@@ -1,8 +1,5 @@
+@import "mixins";
 @import "variables";
 @import "buttons";
-
-body{
-	color: $dark-txt;
-	font-family: $primary-font;
-}
+@import "base";
 @import "header";
