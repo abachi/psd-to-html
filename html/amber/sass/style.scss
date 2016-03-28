@@ -1,0 +1,8 @@
+@import "variables";
+@import "buttons";
+
+body{
+	color: $dark-txt;
+	font-family: $primary-font;
+}
+@import "header";

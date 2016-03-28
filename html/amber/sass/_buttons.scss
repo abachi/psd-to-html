@@ -1,0 +1,15 @@
+.btn{
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: $btn-txt-size;
+	padding: 8px 15px;
+	border: 2px solid $primary-color;
+}
+.btn-with-bg{
+	background-color: $primary-color;
+	color: $white-txt;
+}
+.btn-without-bg{
+	background-color: transparent;
+	color: $primary-color;
+}

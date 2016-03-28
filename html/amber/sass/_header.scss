@@ -1,0 +1,63 @@
+header{
+	background-image: url("../images/header-bg.jpg");
+	background-size: cover;
+	.navbar{ margin-bottom: 0; border-radius: 0; border: 0;}
+	.top-navbar{
+		color: $header-txt-color;
+		height: 50px;
+		background-color: #000;
+		.navbar-nav{
+			li {
+				a{color: $header-txt-color;}
+			}
+		}
+		.navbar-form{
+			input{
+				height: 28px;
+				width: 210px;
+				background: none;
+				border: 1px solid $header-txt-color; 
+				border-radius: 0;
+			}
+		}
+	}
+	.bottom-navbar{
+		height: 65px;
+		background-color: rgba(0, 0, 0, 0.5);
+		.navbar-nav{
+			li{
+				a{color: $white-txt; font-weight: light;} 
+				text-transform: uppercase;
+				position: relative;
+				padding-top: 10px; 
+			}
+			li::before{
+				position: absolute;
+				top:0; left:0;
+				content: '';
+				height: 5px;
+				width: 100%;
+				// TODO : replace each 'li bg' color
+				//  with random color
+				background-color: #e51c5e;
+			}
+		}
+	}
+	.slider{
+		.slide{
+			margin: 80px 0;
+			font-size: 60px;
+			h1{color: $primary-color; font-size: 60px;}
+			h2{color: $white-txt; font-size: 60px;}
+		}
+		.btns{
+			margin: 20px 0;
+			margin-bottom: 80px;
+			button{ margin: 0 20px;}
+			button:hover{ color: $white-txt;}
+		}
+		a.active{color: $primary-color;}
+		a{color: $white-txt; margin: 5px;}
+		a:hover{color: $primary-color;}
+	}
+}

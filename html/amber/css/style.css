@@ -1,3 +1,84 @@
+/* Fonts */
+@import url(https://fonts.googleapis.com/css?family=Oxygen:400,300,700);
+/* Colors */
+.btn {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 12px;
+  padding: 8px 15px;
+  border: 2px solid #02baab; }
 
+.btn-with-bg {
+  background-color: #02baab;
+  color: #fff; }
+
+.btn-without-bg {
+  background-color: transparent;
+  color: #02baab; }
+
+body {
+  color: #3b4954;
+  font-family: "Oxygen", serif; }
+
+header {
+  background-image: url("../images/header-bg.jpg");
+  background-size: cover; }
+  header .navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    border: 0; }
+  header .top-navbar {
+    color: #85939f;
+    height: 50px;
+    background-color: #000; }
+    header .top-navbar .navbar-nav li a {
+      color: #85939f; }
+    header .top-navbar .navbar-form input {
+      height: 28px;
+      width: 210px;
+      background: none;
+      border: 1px solid #85939f;
+      border-radius: 0; }
+  header .bottom-navbar {
+    height: 65px;
+    background-color: rgba(0, 0, 0, 0.5); }
+    header .bottom-navbar .navbar-nav li {
+      text-transform: uppercase;
+      position: relative;
+      padding-top: 10px; }
+      header .bottom-navbar .navbar-nav li a {
+        color: #fff;
+        font-weight: light; }
+    header .bottom-navbar .navbar-nav li::before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      content: '';
+      height: 5px;
+      width: 100%;
+      background-color: #e51c5e; }
+  header .slider .slide {
+    margin: 80px 0;
+    font-size: 60px; }
+    header .slider .slide h1 {
+      color: #02baab;
+      font-size: 60px; }
+    header .slider .slide h2 {
+      color: #fff;
+      font-size: 60px; }
+  header .slider .btns {
+    margin: 20px 0;
+    margin-bottom: 80px; }
+    header .slider .btns button {
+      margin: 0 20px; }
+    header .slider .btns button:hover {
+      color: #fff; }
+  header .slider a.active {
+    color: #02baab; }
+  header .slider a {
+    color: #fff;
+    margin: 5px; }
+  header .slider a:hover {
+    color: #02baab; }
 
 /*# sourceMappingURL=style.css.map */

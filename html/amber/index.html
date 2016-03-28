@@ -20,55 +20,92 @@
   <body>
 
   <header>
-    <nav class="navbar navbar-inverse" role="navigation" style="border-radius: 0; margin-bottom: 0">
+    <nav class="navbar navbar-inverse top-navbar" role="navigation">
       <div class="container">
         <div class="row">
           <form class="navbar-form navbar-left">
             <div class="form-group">
-              <input type="text" class="form-control" placeholder="search">
+              <input type="text" class="form-control" placeholder="Search">
             </div>
           </form>
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Login</a></li>
-            <li><a href="#">Register</a></li>
+            <li>
+              <a href="#">
+                <i class="fa fa-user"></i>
+                Login
+                </a>
+              </li>
+            <li>
+              <a href="#">
+                <i class="fa fa-pencil"></i>
+                Register
+              </a>
+              </li>
           </ul>
         </div>
     </nav>
-    <nav class="navbar navbar-inverse" role="navigation" style="border-radius: 0; margin-bottom: 0">
+    <!-- End top navbar -->
+
+    <!-- Start bottom navbar  -->
+    <nav class="navbar bottom-navbar navbar-inverse" role="navigation" style="border-radius: 0; margin-bottom: 0">
       <div class="container">
         <div class="row">
-        <img src="images/logo.png" class="navbar-brand navbar-left">
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Typography</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Pages</a></li>
-          <li><a href="#">Elements</a></li>
-          <li><a href="#">eCommerse</a></li>
-          <li><a href="#">Mega menu</a></li>
-        </ul>
+          <div class="col-md-2">
+            <img src="images/logo.png" class="navbar-brand navbar-right">
+          </div>
+          <div class="col-md-10">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Typography</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Pages</a></li>
+              <li><a href="#">Elements</a></li>
+              <li><a href="#">eCommerse</a></li>
+              <li><a href="#">Mega menu</a></li>
+            </ul>
+          </div>
       </div>
     </nav>
+    <!-- End bottom navbar -->
+
+    <!-- Start slider show -->
     <div class="slider text-center" style="height: 540px; border: 1px solid #000">
-      <div class="container">
-        <div class="row">
-          <h1>Creating a unique look.</h1>
-          <h1>Never been easier.</h1>
-          <button class="btn btn-primary">see features</button>
-          <button class="btn btn-primary">purchase now</button>
+        <div class="container">
+          <div class="row">
+            <div class="slide">
+              <h1>Creating a unique look.</h1>
+              <h2>Never been easier.</h2>
+            </div>
+          </div>
+          <div class="row btns">
+            <button class="btn btn-with-bg">see features</button>
+            <button class="btn btn-without-bg">purchase now</button>
+          </div>
+          <div class="row">
+            <a href="#"><i class="fa fa-circle"></i></a>
+            <a href="#" class="active"><i class="fa fa-circle"></i></a>
+            <a href="#"><i class="fa fa-circle"></i></a>
+            <a href="#"><i class="fa fa-circle"></i></a>
+          </div>
         </div>
-    </div>
+     </div>
+    <!-- End slider show -->
   </header>
+  <!-- End header -->
+
+  <!-- Start welcome section -->
   <section class="welcome text-center">
     <div class="container">
       <div class="row">
         <h3>Steal of the mounth</h3>
         <div class="diveder"></div>
         <p>That we can tuck in our children at night and know that they are fed and clothed and safe from harm. Our trials and triumphs became at once unique and universal.</p>
-        <button class="btn btn-primary">purchase now</button>
+        <button class="btn btn-without-bg">purchase now</button>
       </div>
     </div>
   </section>
+  <!-- End welcome section -->
+
 
   <section class="portfolio text-center">
     <div class="container">
@@ -76,7 +113,6 @@
         <h3>Last Works</h3>
         <div class="diveder"></div>
         <p>That we can tuck in our children at night and know that they are fed and clothed and safe from harm. Our trials and triumphs became at once unique and universal.</p>
-        <button class="btn btn-primary">purchase now</button>
         <div class="projects">
           <div class="row">
             <div class="col-md-4">
