@@ -13,3 +13,8 @@
 	background-color: transparent;
 	color: $primary-color;
 }
+.btn-without-bg.inverse{
+	background-color: transparent;
+	color: $white-txt;
+	border-color: $white-txt;
+}
