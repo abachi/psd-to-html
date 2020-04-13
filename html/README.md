@@ -1,1 +1,0 @@
-This repository contain some of free PSD to HTML templates
